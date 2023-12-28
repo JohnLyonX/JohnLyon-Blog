@@ -2,12 +2,12 @@
   <section class="mx-auto border-bottom">
     <div class="post-container p-4">
       <div class="post-img">
-        <a href="/posts" @click="handleClick">
+        <a href="javascript:void(0)" @click="handleClick">
           <img :src="props.post.url" alt="post image">
         </a>
       </div>
       <div class="post-content">
-        <a href="/posts" @click="handleClick">
+        <a href="javascript:void(0)" @click="handleClick">
           <h2 class="fs-3 fw-bold">{{ props.post.name }}</h2>
           <h2 class="fs-6 my-2 text-muted fw-normal">{{ props.post.date }}</h2>
           <p class="fs-6 fw-semibold">{{ props.post.introduction }}</p>
@@ -19,6 +19,7 @@
 </template>
 <script setup>
 import {defineProps} from 'vue'
+import { useRouter } from 'vue-router';
 
 const props = defineProps({
   post: {
@@ -26,10 +27,10 @@ const props = defineProps({
     default: () => ({})
   }
 })
-
+const router = useRouter();
 const handleClick = () => {
   if (props.post.name) {
-    localStorage.setItem('PostsName', props.post.name);
+    router.push({ path: '/posts/' + props.post.name });
   }
 }
 </script>

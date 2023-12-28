@@ -10,22 +10,24 @@ import HomePage from "@/pages/BlogPages.vue";
 import PostsPage from "@/pages/PostsPage.vue";
 
 
-
-
 // 引入要加载的路由配置
 const routes = [
     {
         path: '',
         component: HomePage,
         meta: {
-            title: 'Lyon John'
+            title: 'John Lyon'
         }
     },
     {
-        path: '/posts',
+        path: '/posts/:name',
         component: PostsPage,
         meta: {
-            title: 'Posts - Lyon John'
+            title: (route) => {
+                // 从路由参数中获取文章的 name
+                const name = route.params.name;
+                return name ? `${name}` : 'Posts - Lyon John';
+            }
         }
     }
 ]
@@ -38,7 +40,9 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title || 'Lyon John';
+    document.title = typeof to.meta.title === 'function'
+        ? to.meta.title(to)
+        : to.meta.title || 'Lyon John';
     next()
 })
 

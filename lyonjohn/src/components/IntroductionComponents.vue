@@ -1,20 +1,27 @@
 <template>
   <section class="header-container px-4 py-4">
     <div class="avatar">
-      <img alt="Vue logo" src="@/assets/lyonjohn.png">
+      <img alt="Vue logo" src="@/assets/johnlyon.png">
     </div>
     <div class="py-4">
-      <h2>Hey! <br/><span class="name">I'm Lyon <span class="gradient-text">John</span></span></h2>
-      <p>hi, my name is Lyon John, but you can call me Po John! Now I'm a full stack developer...so thank you for the
+      <h2>Hey! <br/> I'm
+        <div class="name" ref="nameContainer">John <span class="gradient-text">Lyon</span>
+        </div>
+      </h2>
+      <p>hi, my name is 梁展波, but you can call me john lyon or po john! Now I'm a full stack developer...so thank you
+        for the
         love and have a nice day</p>
-      <p>Welcome to search my name on Youtube and Github</p>
+      <p>Welcome to search my name on <a href="https://www.youtube.com/@JohnLyon0611" class="text-dark fw-bolder">Youtube</a>
+        and <a
+            href="https://github.com/JohnLyonX" class="text-dark fw-bolder"> Github </a></p>
+
     </div>
 
     <img src="https://komarev.com/ghpvc/?username=pojohnx&label=Profile%20views&color=0e75b6&style=flat" alt="pojohnx"/>
   </section>
 </template>
 
-<script setup>
+<script>
 </script>
 
 <style scoped>
@@ -35,6 +42,13 @@ h2 {
   font-weight: bold;
   color: #2c3e50;
   padding: 0;
+}
+
+
+@media (max-width: 500px) {
+  .name {
+    font-size: 4.5rem;
+  }
 }
 
 @keyframes gradient {

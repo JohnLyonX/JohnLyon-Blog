@@ -1,11 +1,11 @@
 <template>
-  <section>
+  <section v-if="posts.length > 0">
     <NavbarComponents/>
-    <div class="px-4 py-2 mx-auto" id="container" >
+    <div class="px-4 py-2 mx-auto" id="container">
       <header class="pb-4">
-          <div class="posts-url">
-            <img :src="posts[0].url" alt="posts image">
-          </div>
+        <div class="posts-url">
+          <img :src="posts[0].url" alt="posts image">
+        </div>
       </header>
       <h2 class="fs-1 fw-bold">{{ posts[0].name }}</h2>
       <div class="fs-6 fw-semibold date my-3 py-1">Published: {{ posts[0].date }}</div>
@@ -13,6 +13,8 @@
       <div class="fs-6 py-2">{{ posts[0].content }}</div>
       <FooterComponents/>
     </div>
+  </section>
+  <section v-else>
   </section>
 </template>
 <script>
@@ -32,11 +34,10 @@ export default {
     }
   },
   created() {
-    const PostsName = localStorage.getItem('PostsName');
+    const PostsName = this.$route.params.name;
     axios.get('http://www.lyonjohn.xyz:8081/api/posts?name=' + PostsName)
         .then(response => {
           this.posts = response.data;
-          console.log(response.data)
         })
         .catch(error => {
           console.error(error);
@@ -62,7 +63,7 @@ export default {
 
 @media (max-width: 640px) {
   .posts-url {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
