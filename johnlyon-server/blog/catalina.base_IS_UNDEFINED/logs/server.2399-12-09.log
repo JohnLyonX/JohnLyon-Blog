@@ -1,0 +1,189 @@
+14:26:20.349 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 15747 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+14:26:20.354 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+14:26:21.617 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+14:26:21.628 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:26:21.628 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:26:21.628 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+14:26:21.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:26:21.720 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1304 ms
+14:26:21.929 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+14:26:22.050 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+14:26:22.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:26:22.454 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+14:26:22.470 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.609 seconds (JVM running for 3.596)
+14:26:26.848 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:26:26.849 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:26:26.850 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:26:27.104 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:26:27.485 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:00:05.736 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 18560 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:00:05.738 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:00:07.165 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:00:07.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:00:07.174 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:00:07.174 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:00:07.273 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:00:07.274 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1477 ms
+15:00:07.478 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:00:07.605 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:00:08.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:00:08.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:00:08.068 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.862 seconds (JVM running for 3.859)
+15:07:05.634 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 19137 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:07:05.636 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:07:06.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:07:06.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:07:06.844 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:07:06.844 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:07:06.925 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:07:06.926 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+15:07:07.111 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:07:07.216 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:07:07.573 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:07:07.604 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:07:07.623 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.436 seconds (JVM running for 3.212)
+15:07:37.744 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 19250 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:07:37.746 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:07:38.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:07:38.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:07:38.899 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:07:38.899 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:07:38.968 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:07:38.970 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1171 ms
+15:07:39.162 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:07:39.278 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:07:39.686 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:07:39.700 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:07:39.711 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.413 seconds (JVM running for 3.194)
+15:08:21.968 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:08:21.969 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:08:21.970 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:10:27.020 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 19476 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:10:27.022 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:10:28.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:10:28.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:10:28.237 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:10:28.237 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:10:28.316 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:10:28.316 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1230 ms
+15:10:28.511 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:10:28.627 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:10:28.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:10:29.013 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:10:29.033 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.449 seconds (JVM running for 3.236)
+15:10:31.496 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:10:31.497 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:10:31.498 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:19:00.288 [http-nio-8081-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:19:00.589 [http-nio-8081-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:45:23.972 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 22097 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:45:23.976 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:45:25.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:45:25.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:45:25.148 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:45:25.149 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:45:25.221 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:45:25.222 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1180 ms
+15:45:25.404 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:45:25.505 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:45:25.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:45:25.898 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:45:25.915 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.371 seconds (JVM running for 3.158)
+15:45:27.791 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:45:27.792 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:45:27.793 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:45:28.078 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:45:28.375 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:46:22.163 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:46:22.180 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:46:26.322 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 22328 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:46:26.324 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:46:27.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:46:27.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:46:27.603 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:46:27.603 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:46:27.686 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:46:27.688 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1315 ms
+15:46:27.880 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:46:28.005 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:46:28.395 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:46:28.407 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:46:28.422 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.564 seconds (JVM running for 3.352)
+15:46:53.690 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:46:53.690 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:46:53.691 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:46:53.997 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:46:54.301 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:48:33.702 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:48:33.711 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:48:38.225 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Starting LyonjohnblogApplication using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 22649 (/Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog/target/classes started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+15:48:38.227 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - No active profile set, falling back to 1 default profile: "default"
+15:48:39.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+15:48:39.446 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+15:48:39.446 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:48:39.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+15:48:39.521 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:48:39.523 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1227 ms
+15:48:39.705 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+15:48:39.812 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+15:48:40.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+15:48:40.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+15:48:40.219 [main] INFO  com.lyonjohn.blog.LyonjohnblogApplication - Started LyonjohnblogApplication in 2.43 seconds (JVM running for 3.22)
+15:49:48.596 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:49:48.596 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:49:48.597 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+15:49:48.897 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:49:49.191 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:14:36.317 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests], using SpringBootContextLoader
+18:14:36.322 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:14:36.323 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: LyonjohnblogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:14:36.483 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lyonjohn.blog.LyonjohnblogApplication for test class com.lyonjohn.blog.JohnlyonblogApplicationTests
+18:14:36.583 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:14:36.602 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37c7595, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ed242a4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1199fe66, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@614df0a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fdf1c5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d96543c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73a2e526, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d64e326, org.springframework.test.context.event.EventPublishingTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68be8808, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32193bea, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b8d96d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@69653e16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@758705fa]
+18:14:37.283 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Starting LyonjohnblogApplicationTests using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 36198 (started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+18:14:37.285 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:14:39.626 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+18:14:39.871 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+18:14:41.199 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Started LyonjohnblogApplicationTests in 4.545 seconds (JVM running for 6.014)
+18:23:21.507 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests], using SpringBootContextLoader
+18:23:21.512 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:23:21.513 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: LyonjohnblogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:23:21.642 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lyonjohn.blog.LyonjohnblogApplication for test class com.lyonjohn.blog.JohnlyonblogApplicationTests
+18:23:21.742 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:23:21.760 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37c7595, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ed242a4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1199fe66, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@614df0a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fdf1c5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d96543c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73a2e526, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d64e326, org.springframework.test.context.event.EventPublishingTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68be8808, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32193bea, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b8d96d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@69653e16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@758705fa]
+18:23:22.415 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Starting LyonjohnblogApplicationTests using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 37150 (started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+18:23:22.420 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:23:24.257 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+18:23:24.454 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+18:23:25.659 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Started LyonjohnblogApplicationTests in 3.846 seconds (JVM running for 5.254)
+18:31:41.722 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests], using SpringBootContextLoader
+18:31:41.727 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:41.727 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.lyonjohn.blog.JohnlyonblogApplicationTests]: LyonjohnblogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:31:41.878 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.lyonjohn.blog.LyonjohnblogApplication for test class com.lyonjohn.blog.JohnlyonblogApplicationTests
+18:31:41.984 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:31:42.003 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37c7595, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ed242a4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1199fe66, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@614df0a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fdf1c5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d96543c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73a2e526, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d64e326, org.springframework.test.context.event.EventPublishingTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68be8808, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32193bea, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b8d96d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@69653e16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@758705fa]
+18:31:42.547 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Starting LyonjohnblogApplicationTests using Java 20.0.1 on liangzhanbodeMacBook-Pro.local with PID 38347 (started by liangzhanbo in /Users/liangzhanbo/Desktop/lyonjohn-blog-server/lyonjohnblog)
+18:31:42.549 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - No active profile set, falling back to 1 default profile: "default"
+18:31:44.455 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.Posts"
+18:31:44.650 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.lyonjohn.blog.pojo.PostsPage"
+18:31:46.030 [main] INFO  com.lyonjohn.blog.JohnlyonblogApplicationTests - Started LyonjohnblogApplicationTests in 3.976 seconds (JVM running for 5.489)
+19:11:07.839 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s896ms).
+19:13:34.698 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s563ms).
+19:15:51.034 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s309ms).
+19:17:28.738 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s693ms).
+19:20:16.847 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s322ms).
+19:21:40.432 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s583ms).
+19:22:25.636 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s205ms).
+19:24:36.418 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s775ms).
+19:28:07.880 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s646ms).
+19:30:29.820 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s4ms).
+19:34:19.603 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s624ms).
+19:48:25.765 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s163ms).
+19:53:04.413 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m8s640ms).
+19:57:32.766 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m28s353ms).
+20:00:12.122 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s344ms).
+20:01:21.978 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s855ms).
+21:05:23.435 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m31s448ms).
+21:12:00.041 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m36s607ms).
+21:20:34.003 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m33s961ms).
+21:22:17.207 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s121ms).
