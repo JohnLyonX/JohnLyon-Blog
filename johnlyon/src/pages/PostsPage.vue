@@ -35,7 +35,7 @@ export default {
   },
   created() {
     const PostsName = this.$route.params.name;
-    axios.get('http://www.lyonjohn.xyz:8081/api/posts?name=' + PostsName)
+    axios.get('/posts?name=' + PostsName)
         .then(response => {
           this.posts = response.data;
         })

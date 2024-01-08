@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     getPosts() {
-      axios.post('http://www.lyonjohn.xyz:8081/api/getPosts')
+      axios.post('/getPosts')
           .then(response => {
             this.posts = response.data.sort((a, b) => b.pin - a.pin);
           })

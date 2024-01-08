@@ -1,5 +1,6 @@
 import {createApp} from 'vue'
 import App from './App.vue'
+import axios from 'axios';
 import {createRouter, createWebHistory} from "vue-router";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -9,6 +10,7 @@ import 'bulma/css/bulma.css'
 import HomePage from "@/pages/BlogPages.vue";
 import PostsPage from "@/pages/PostsPage.vue";
 
+axios.defaults.baseURL = 'https://www.iamjohnlyon.com:8082/api';
 
 // 引入要加载的路由配置
 const routes = [
@@ -26,7 +28,7 @@ const routes = [
             title: (route) => {
                 // 从路由参数中获取文章的 name
                 const name = route.params.name;
-                return name ? `${name}` : 'Posts - Lyon John';
+                return name ? `${name}` : 'Posts - John Lyon';
             }
         }
     }
