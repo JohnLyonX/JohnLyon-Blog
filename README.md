@@ -1,5 +1,5 @@
 # LyonJohn-Blog(New 2024)
-💸 My Blog Link: www.lyonjohn.xyz
+💸 My Blog Link: www.iamjohnlyon.com
 
 💻 Project Progress: In progress
 
