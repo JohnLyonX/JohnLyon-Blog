@@ -1,7 +1,7 @@
 <template>
   <section class="header-container px-4 py-4">
     <div class="avatar">
-      <img alt="Vue logo" src="@/assets/johnlyon.png">
+      <img alt="Vue logo" src="https://defgec.oss-cn-guangzhou.aliyuncs.com/JohnLyon-Blog/avatar/johnlyon.png">
     </div>
     <div class="py-4">
       <h2>Hey! <br/> I'm
