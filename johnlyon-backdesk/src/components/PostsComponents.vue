@@ -1,26 +1,27 @@
 <template>
-  <section class="mx-auto border-bottom">
+  <section class="border-bottom">
     <div class="post-container p-4">
       <div class="post-img">
-        <a href="javascript:void(0)" @click="handleClick">
+        <div href="javascript:void(0)">
           <img :src="props.post.url" alt="post image">
-        </a>
+        </div>
       </div>
       <div class="post-content">
-        <a href="javascript:void(0)" @click="handleClick">
-          <h2 class="fs-3 fw-bold">{{ props.post.name }}</h2>
+        <div href="javascript:void(0)">
+          <h2 class="fs-3 fw-bold">{{ props.post.title }}</h2>
           <h2 class="fs-6 my-2 text-muted fw-normal">{{ props.post.date }}</h2>
           <p class="fs-6 fw-semibold">{{ props.post.introduction }}</p>
-        </a>
-        <a href="#" class="fs-6 me-2 text-black text-decoration-underline">Editor</a>
-        <a href="#" class="fs-6 text-danger text-decoration-underline">Delete</a>
+        </div>
+        <a href="#" @click="handleClick" class="fs-6 me-2 text-black text-decoration-underline">Editor</a>
+        <a href="#" @click="deletePosts" class="fs-6 text-danger text-decoration-underline">Delete</a>
       </div>
     </div>
   </section>
 </template>
 <script setup>
 import {defineProps} from 'vue'
-import { useRouter } from 'vue-router';
+import {useRouter} from 'vue-router';
+import axios from "axios";
 
 const props = defineProps({
   post: {
@@ -31,7 +32,20 @@ const props = defineProps({
 const router = useRouter();
 const handleClick = () => {
   if (props.post.name) {
-    router.push({ path: '/posts/' + props.post.name });
+    router.push({path: '/posts/' + props.post.name});
+  }
+}
+
+const deletePosts = () => {
+  if (confirm('Are you sure you want to delete this post?')) {
+    axios.get('/delete?name=' + props.post.name)
+        .then(response => {
+          alert(response.data);
+          router.go(0);
+        })
+        .catch(error => {
+          console.error(error);
+        });
   }
 }
 </script>
@@ -79,6 +93,7 @@ a, a:hover {
     padding: 10px 5px;
   }
 }
+
 a {
   text-decoration: none;
 }

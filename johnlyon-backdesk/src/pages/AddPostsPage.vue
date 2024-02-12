@@ -25,7 +25,7 @@
       </div>
       <div class="form-group my-3">
         <label for="editor">Content</label>
-        <Vue3MyEditor @onDataEvent="getDataHandler"/>
+        <EditorComponents id="content" name="content" ref="editorContent"/>
       </div>
       <div class="form-group my-3">
         <label for="pin">Pin</label>
@@ -40,12 +40,12 @@
   </section>
 </template>
 <script>
-import Vue3MyEditor from "@/components/Vue3MyEditor.vue";
 import axios from 'axios';
+import EditorComponents from "@/components/EditorComponents.vue";
 
 export default {
   components: {
-    Vue3MyEditor
+    EditorComponents
   },
   data() {
     return {
@@ -63,9 +63,6 @@ export default {
     this.updateDate();
   },
   methods: {
-    getDataHandler(data) {
-      this.editorContent = data;
-    },
     updateDate() {
       const now = new Date();
       this.date = now.toLocaleDateString('en-US', {month: 'long', day: 'numeric', year: 'numeric'});
@@ -84,14 +81,14 @@ export default {
         title: this.$refs.titleInput.value,
         date: this.date,
         introduction: this.$refs.introductionInput.value,
-        content: this.editorContent,
+        content: this.$refs.editorContent.valueHtml,
         pin: parseInt(this.$refs.pinInput.value) // Convert pin to an integer
       };
 
       // Convert formData to URLSearchParams
       const params = new URLSearchParams(formData);
 
-      axios.post(`http://localhost:8081/api/writePosts?${params.toString()}`)
+      axios.post(`/writePosts?${params.toString()}`)
           .then(response => {
             this.$router.push('/'); // Modify this line
             alert(response.data);

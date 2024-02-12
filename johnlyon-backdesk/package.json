@@ -10,6 +10,7 @@
   "dependencies": {
     "@tinymce/tinymce-vue": "^5.0.0",
     "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
     "axios": "^1.6.3",
     "bootstrap": "^5.3.2",
     "core-js": "^3.8.3",

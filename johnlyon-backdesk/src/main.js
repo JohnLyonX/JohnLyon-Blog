@@ -7,9 +7,11 @@ import {createRouter, createWebHistory} from 'vue-router';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import HomePage from '@/pages/HomePage.vue';
-// import LoginPage from '@/pages/LoginPage.vue';
 import EditorPage from '@/pages/EditorPostsPage.vue';
 import AddPage from '@/pages/AddPostsPage.vue';
+import axios from "axios";
+
+axios.defaults.baseURL = 'http://localhost:8081/api';
 
 const routes = [
     {

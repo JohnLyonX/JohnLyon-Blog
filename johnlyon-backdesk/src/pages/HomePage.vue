@@ -20,7 +20,7 @@ import {onMounted, ref} from 'vue';
 const posts = ref([]);
 
 const getPosts = () => {
-  axios.post('http://www.lyonjohn.xyz:8081/api/getPosts')
+  axios.post('/getPosts')
       .then(response => {
         posts.value = response.data.sort((a, b) => b.pin - a.pin);
       })
