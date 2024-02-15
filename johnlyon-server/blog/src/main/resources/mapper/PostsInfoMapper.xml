@@ -1,0 +1,10 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.johnlyon.blog.mapper.PostsInfoMapper">
+        <select id="getEditorPostsInfo" resultType="com.johnlyon.blog.pojo.PostsInfo">
+            SELECT p.*, pp.content
+            FROM posts p
+                     LEFT JOIN posts_page pp ON p.name = pp.name
+            WHERE p.name = #{name}
+        </select>
+    </mapper>

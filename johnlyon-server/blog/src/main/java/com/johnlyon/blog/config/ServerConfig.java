@@ -13,4 +13,8 @@ public class ServerConfig implements WebMvcConfigurer {
                 .allowedMethods("POST","GET")
                 .allowedHeaders("*");
     }
+
+    public static void main(String[] args) {
+        System.out.println("龙年快乐！");
+    }
 }

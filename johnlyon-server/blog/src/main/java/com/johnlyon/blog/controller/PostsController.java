@@ -22,7 +22,7 @@ public class PostsController {
     @Autowired
     private PostsPageMapper postsPageMapper;
 
-    @PostMapping("/getPosts")
+    @RequestMapping("/getPosts")
     @ResponseBody
     public List<Posts> getPosts() {
         return postsMapper.selectList(null);

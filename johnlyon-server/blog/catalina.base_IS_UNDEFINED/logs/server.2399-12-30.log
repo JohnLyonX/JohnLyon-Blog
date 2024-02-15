@@ -343,7 +343,7 @@ java.lang.IllegalStateException: Optional int parameter 'pin' is present but can
 15:47:09.451 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:52)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:34)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -415,7 +415,7 @@ java.lang.NumberFormatException: Cannot parse null string
 	at java.base/java.lang.Integer.parseInt(Integer.java:627)
 	at java.base/java.lang.Integer.parseInt(Integer.java:781)
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:26)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:35)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -485,7 +485,7 @@ java.lang.NumberFormatException: Cannot parse null string
 15:51:11.966 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:53)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:35)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -555,7 +555,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 15:52:19.384 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:51)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:38)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:38)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -625,7 +625,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 15:54:59.943 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:51)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:40)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -695,7 +695,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 15:57:58.553 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:51)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:40)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -769,7 +769,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:01:38.264 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:44)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -821,7 +821,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:01:59.094 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:44)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -873,7 +873,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:02:07.082 [http-nio-8081-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:44)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -925,7 +925,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:03:07.134 [http-nio-8081-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:44)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -977,7 +977,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:05:58.658 [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:44)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -1047,7 +1047,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:09:09.330 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:50)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:46)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:46)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -1117,7 +1117,7 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:09:50.886 [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:52)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:46)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:46)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -1299,3 +1299,5 @@ java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 16:57:26.792 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 16:57:27.086 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
 11:43:03.396 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s859ms), soft-evicting connections from pool.
+17:35:47.655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:35:47.675 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

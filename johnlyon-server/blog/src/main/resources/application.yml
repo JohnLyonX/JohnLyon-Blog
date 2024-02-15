@@ -3,12 +3,14 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql:///lyonjohn-blog?serverTimezone=UTC
+    url: jdbc:mysql://10.211.55.25:3306/johnlyon-blog?serverTimezone=UTC
     username: root
-#    password: Apzhanbo1314666
-    password: Mysqlrt123456
+    password: 123456Aa!
 
 
 logging:
   pattern:
     console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml

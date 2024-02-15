@@ -72,7 +72,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'lyonjohn_blog'
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
 	at jdk.proxy2/jdk.proxy2.$Proxy60.insert(Unknown Source)
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:38)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:34)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -163,7 +163,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'lyonjohn_blog'
 	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
 	at jdk.proxy2/jdk.proxy2.$Proxy60.insert(Unknown Source)
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:38)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:34)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
@@ -234,7 +234,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'lyonjohn_blog'
 09:32:03.483 [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.] with root cause
 java.lang.IllegalArgumentException: Error: Parameters cannot be null or empty.
 	at com.johnlyon.blog.service.PostsService.addPosts(PostsService.java:49)
-	at com.johnlyon.blog.controller.WritePostsController.writePosts(WritePostsController.java:34)
+	at com.johnlyon.blog.controller.EditorPostsController.writePosts(WritePostsController.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)

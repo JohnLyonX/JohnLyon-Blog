@@ -9,10 +9,13 @@ import lombok.Data;
 @Data
 public class Posts {
     @TableId(value = "id", type = IdType.AUTO)
-    private int id;
+    private Integer id;
     private String url;
     private String name;
+    private String title;
     private String date;
     private String introduction;
     private int pin;
+
+
 }
