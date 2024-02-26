@@ -5,7 +5,6 @@ import com.johnlyon.blog.mapper.PostsMapper;
 import com.johnlyon.blog.mapper.PostsPageMapper;
 import com.johnlyon.blog.pojo.Posts;
 import com.johnlyon.blog.pojo.PostsPage;
-import org.apache.ibatis.jdbc.Null;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +14,6 @@ public class PostsService {
     private PostsMapper postsMapper;
     @Autowired
     private PostsPageMapper postsPageMapper;
-
-    public void checkNameUrl(String name) {
-
-    }
 
     public void addPosts(String url,
                          String name,
